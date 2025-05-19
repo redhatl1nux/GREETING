@@ -1,0 +1,70 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    font-family: 'Segeo UI', sans-serif;
+}
+.background{
+    background: url('guitar.png') no-repeat center/cover;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-box{
+  background-color: rgba(0, 0, 0, 0.85);
+  color: #fff;
+  padding: 40px;
+  width: 350px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px #ff4d4d;
+}
+.logo img{
+    width: 60px;
+    margin-bottom: 20px;
+}
+h2 {
+  margin-bottom: 10px;
+  color: #ff4d4d;
+}
+p{
+    font-size: 0.9em;
+  margin-bottom: 25px;
+}
+form input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 6px;
+  background: #333;
+  color: #fff;
+}
+form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #ff4d4d;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 15px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+form button:hover {
+  background-color: #e63838;
+}
+.options {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85em;
+}
+.options a {
+  color: #ff4d4d;
+  text-decoration: none;
+}
